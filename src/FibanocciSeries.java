@@ -4,10 +4,14 @@ public class FibanocciSeries{
     int i = 0;
     int b = 1;
     int c ;
-    for(int i; i<10; i++){
+    for(i=0; i<10; i++){
 
-      c = a+b;
+      c = i+b;
       System.out.println(c);
+      
+      i = b;
+      b = c;
+      
       
     }
   }
